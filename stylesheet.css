@@ -24,14 +24,11 @@ a:visited {
     right: 0px;
     top: 0px;
     height: 100vh;
-    width: 35%;
+    width: 500px;
     background: #000;
-    -webkit-transform: translateX(-100px);
-    -ms-transform: translateX(-100px);
-    transform: translateX(-100px);
-    -webkit-transition-duration: 2s;
-    -o-transition-duration: 2s;
-    transition-duration: 2s; }
+    -webkit-transition: right .2s;
+    -o-transition: right .2s;
+    transition: right .2s; }
     .menu-hidden .menu_aside span {
       font-size: 20px;
       background-size: cover;
@@ -219,7 +216,7 @@ a:visited {
       border: none; }
 
 .main-page__second-block {
-  min-height: 90vh;
+  min-height: 80vh;
   color: #000; }
   .main-page__second-block .cite {
     font-size: 64px;
@@ -238,8 +235,7 @@ a:visited {
     flex-direction: row;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
-    padding-bottom: 15%; }
+    justify-content: center; }
     .main-page__second-block .flex-box p:first-of-type {
       width: 25%;
       margin-right: 1%;
@@ -261,8 +257,7 @@ a:visited {
   .main-page__third-block section {
     width: 52%;
     margin: 0 auto;
-    padding-top: 75px;
-    padding-bottom: 15%; }
+    padding-top: 75px; }
     .main-page__third-block section h2 {
       font-size: 64px; }
     .main-page__third-block section .flex-third {
@@ -647,3 +642,252 @@ a:visited {
         position: absolute;
         background: url(https://thumb.tildacdn.com/tild3930-3732-4239-b530-393262356530/-/cover/120x120/center/center/-/format/webp/Natasha_K.jpg) 50% 50% no-repeat;
         left: 0px; }
+
+.main-page__ninth-block {
+  min-height: 100vh;
+  background-color: #1A1A1A;
+  padding-top: 5%;
+  margin-top: 0px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .main-page__ninth-block > p {
+    margin-left: 5%; }
+  .main-page__ninth-block h2 {
+    margin-left: 5%;
+    font-size: 86px;
+    margin-top: 0px;
+    line-height: 1; }
+  .main-page__ninth-block .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 0px;
+    margin-bottom: 0px; }
+    .main-page__ninth-block .flex-container .logo {
+      -ms-flex-item-align: end;
+      align-self: flex-end;
+      margin-left: 5%;
+      margin-bottom: 2%;
+      font-size: 200%;
+      font-weight: 600; }
+    .main-page__ninth-block .flex-container .logo::before {
+      content: '';
+      display: block;
+      width: 110%;
+      height: 3px;
+      background-color: #6fbe92; }
+    .main-page__ninth-block .flex-container .flex-container-n {
+      -ms-flex-item-align: end;
+      align-self: flex-end;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 70%;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      .main-page__ninth-block .flex-container .flex-container-n div {
+        width: 50%;
+        height: 500px; }
+      .main-page__ninth-block .flex-container .flex-container-n p:first-of-type {
+        margin-left: 10%;
+        margin-top: 10%;
+        font-weight: 600;
+        font-size: 12; }
+      .main-page__ninth-block .flex-container .flex-container-n h3 {
+        margin-left: 10%;
+        font-size: 140%;
+        width: 70%;
+        font-weight: 600; }
+      .main-page__ninth-block .flex-container .flex-container-n p:last-of-type {
+        margin-top: 30%;
+        margin-left: 10%;
+        font-size: 110%;
+        width: 70%; }
+      .main-page__ninth-block .flex-container .flex-container-n div:nth-of-type(1) {
+        background: url(https://static.tildacdn.com/tild3664-3066-4365-a233-306335326331/card.png) 50% 50% no-repeat;
+        background-size: cover; }
+      .main-page__ninth-block .flex-container .flex-container-n div:nth-of-type(2) {
+        background: url(https://static.tildacdn.com/tild3130-3564-4431-a134-356333353939/Group_6.png) 50% 50% no-repeat; }
+      .main-page__ninth-block .flex-container .flex-container-n div:nth-of-type(3) {
+        background: url(https://static.tildacdn.com/tild3864-6337-4136-b762-373330386337/__2019-07-08__143648.png) 50% 50% no-repeat;
+        background-size: cover; }
+      .main-page__ninth-block .flex-container .flex-container-n div:nth-of-type(4) {
+        background: url(https://static.tildacdn.com/tild3064-3064-4663-a239-343735613964/card.png) 0% 0% no-repeat;
+        background-size: cover; }
+
+.main-page__tenth-block {
+  min-height: 100vh;
+  color: black; }
+  .main-page__tenth-block section {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 10%; }
+    .main-page__tenth-block section h2 {
+      font-size: 64px;
+      font-weight: 600;
+      margin-top: 10%; }
+    .main-page__tenth-block section .flex-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .main-page__tenth-block section .flex-container .left {
+        margin-right: 3%;
+        width: 44%; }
+        .main-page__tenth-block section .flex-container .left h3 {
+          font-size: 160%;
+          font-weight: 600;
+          margin-bottom: 0px;
+          line-height: 1; }
+        .main-page__tenth-block section .flex-container .left p:nth-of-type(1) {
+          color: #9c9c9c;
+          font-weight: 600;
+          font-size: 160%;
+          margin-top: 5%; }
+        .main-page__tenth-block section .flex-container .left p:nth-of-type(2) {
+          font-size: 110%;
+          font-weight: 500;
+          line-height: 1.8; }
+        .main-page__tenth-block section .flex-container .left hr {
+          color: rgba(0, 0, 0, 0.3);
+          width: 30%;
+          margin-right: 100%;
+          margin-top: 15%; }
+        .main-page__tenth-block section .flex-container .left p:nth-of-type(3) {
+          font-size: 90%;
+          font-weight: 300;
+          margin-top: 5%; }
+        .main-page__tenth-block section .flex-container .left button {
+          margin: 0px;
+          padding: 0px;
+          width: 200px;
+          background-color: #1a1a1a;
+          color: white;
+          margin-top: 40px;
+          margin-bottom: 15%;
+          text-transform: uppercase;
+          border-radius: 25px;
+          padding: 10px 30px;
+          font-weight: 600;
+          border: none; }
+        .main-page__tenth-block section .flex-container .left p:nth-of-type(4) {
+          font-size: 80%;
+          font-weight: 600; }
+        .main-page__tenth-block section .flex-container .left p:nth-of-type(5) {
+          font-size: 80%;
+          font-weight: 600;
+          color: #6fbe92; }
+      .main-page__tenth-block section .flex-container .right {
+        margin-left: 3%;
+        width: 44%; }
+        .main-page__tenth-block section .flex-container .right h3 {
+          font-size: 160%;
+          font-weight: 600;
+          margin-bottom: 0px;
+          line-height: 1; }
+        .main-page__tenth-block section .flex-container .right p:nth-of-type(1) {
+          color: #6fbe92;
+          font-weight: 600;
+          font-size: 160%;
+          margin-top: 5%; }
+        .main-page__tenth-block section .flex-container .right p:nth-of-type(2) {
+          font-size: 110%;
+          font-weight: 500;
+          line-height: 1.8; }
+        .main-page__tenth-block section .flex-container .right hr {
+          color: rgba(0, 0, 0, 0.3);
+          width: 30%;
+          margin-right: 100%;
+          margin-top: 15%; }
+        .main-page__tenth-block section .flex-container .right p:nth-of-type(3) {
+          font-size: 90%;
+          font-weight: 300;
+          margin-top: 5%;
+          width: 80%; }
+        .main-page__tenth-block section .flex-container .right button {
+          margin: 0px;
+          padding: 0px;
+          width: 200px;
+          background-color: #6fbe92;
+          color: #1a1a1a;
+          margin-top: 40px;
+          margin-bottom: 15%;
+          text-transform: uppercase;
+          border-radius: 25px;
+          padding: 10px 30px;
+          font-weight: 600;
+          border: none; }
+
+.main-page__eleventh-block {
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden; }
+  .main-page__eleventh-block .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .main-page__eleventh-block .flex-container div {
+      width: 33.3%;
+      background-color: #1a1a1a;
+      height: 50vh;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-bottom: 1px solid black;
+      border-right: 1px solid black;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -ms-flex-line-pack: baseline;
+      align-content: baseline; }
+      .main-page__eleventh-block .flex-container div p {
+        margin-left: 15%;
+        margin-top: 10%;
+        font-size: 90%;
+        font-weight: 600; }
+      .main-page__eleventh-block .flex-container div h3 {
+        margin-left: 15%;
+        font-size: 150%;
+        font-weight: 600;
+        margin-bottom: 30%;
+        width: 70%; }
+      .main-page__eleventh-block .flex-container div button {
+        margin-left: 15%;
+        margin-bottom: 10%;
+        padding: 0px;
+        text-transform: uppercase;
+        border-radius: 25px;
+        padding: 10px 30px;
+        font-weight: 600;
+        border: none;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+        background-color: #6fbe92;
+        color: #1a1a1a; }
+    .main-page__eleventh-block .flex-container div:last-of-type {
+      background-color: #6fbe92;
+      color: #1a1a1a; }
+      .main-page__eleventh-block .flex-container div:last-of-type h3 {
+        padding-bottom: 25px; }
+      .main-page__eleventh-block .flex-container div:last-of-type button {
+        background-color: white;
+        color: #1a1a1a; }
