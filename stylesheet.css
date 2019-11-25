@@ -79,7 +79,12 @@ a:visited {
       transform: rotate(-45deg); }
 
 .main-page {
-  display: block; }
+  display: block;
+  z-index: 100; }
+  .main-page .overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 100%; }
   .main-page .menu-block {
     position: fixed;
     right: 3%;
@@ -725,7 +730,9 @@ a:visited {
 
 .main-page__tenth-block {
   min-height: 100vh;
-  color: black; }
+  color: black;
+  position: relative;
+  width: 100%; }
   .main-page__tenth-block section {
     width: 50%;
     margin: 0 auto;
@@ -827,12 +834,25 @@ a:visited {
           padding: 10px 30px;
           font-weight: 600;
           border: none; }
+  .main-page__tenth-block .popUp {
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    display: block;
+    margin-left: 550px;
+    top: 0%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: none; }
+    .main-page__tenth-block .popUp h1 {
+      margin: auto; }
 
 .main-page__eleventh-block {
   height: 100vh;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  overflow: hidden; }
+  box-sizing: border-box; }
   .main-page__eleventh-block .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;

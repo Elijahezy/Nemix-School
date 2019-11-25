@@ -77,4 +77,13 @@ advantagesToggleArray.forEach( function ( node ) {
     };
 } );
 
+// PopUp Button
 
+const showPopup = document.querySelector('.popUp'),
+    priceBtn = document.querySelector('.pricebtn'),
+    overlay = document.querySelector('.overlay');
+
+priceBtn.onclick = function () {
+    showPopup.style.display = 'flex';
+    overlay.style.backgroundColor = 'white';
+}

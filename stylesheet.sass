@@ -92,6 +92,12 @@ a:visited
 
 .main-page
 	display: block
+	z-index: 100
+	
+	.overlay
+		width: 100%
+		height: 100%
+		z-index: 100%
 
 	.menu-block
 		position: fixed
@@ -774,6 +780,8 @@ a:visited
 .main-page__tenth-block
 	min-height: 100vh
 	color: black
+	position: relative
+	width: 100%
 
 	section
 		width: 50%
@@ -890,11 +898,27 @@ a:visited
 					padding: 10px 30px
 					font-weight: 600
 					border: none
+	
+	.popUp
+		width: 800px
+		height: 800px
+		background-color: white
+		display: block
+		margin-left: 550px
+		top: 0%
+		position: absolute
+		display: flex
+		display: none
 
+		h1
+			margin: auto
+
+
+		
 .main-page__eleventh-block
 	height: 100vh
 	box-sizing: border-box
-	overflow: hidden
+	
 
 	.flex-container
 		display: flex
